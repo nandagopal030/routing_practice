@@ -1,12 +1,14 @@
-import AppRouters from "./routes/AppRouters"
-
+// src/App.jsx
+import Navbar from './components/common/Navbar';
+import AppRoutes from './routes/AppRoutes';
 
 function App() {
   return (
     <>
-    <AppRouters />
+      <Navbar />
+      <AppRoutes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

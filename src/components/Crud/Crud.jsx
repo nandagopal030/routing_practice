@@ -2,10 +2,10 @@
 import { useState, useEffect, useTransition, useCallback } from 'react';
 
 // styles
-import '../../css/crud.css'
+import './Crud.css';
 
 // json
-import crudElements from './crudElements.json'
+import crudElements from './crudElements.json';
 
 export const Crud = () => {
   const [users, setUsers] = useState([]);
