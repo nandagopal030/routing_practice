@@ -1,0 +1,48 @@
+.nav-bar {
+    background-color: #9ACFCF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    transition: transform 0.2s ease;
+}
+
+.nav-bar ul li:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-bar li a:hover {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
